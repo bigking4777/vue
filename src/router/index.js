@@ -9,11 +9,6 @@ const routes = [
     path: '/',
     component: Layout,
     children: [{
-      path: 'xibucopy',
-      name: 'xibucopy',
-      component: () => import('../views/xibucopy/index'),
-      meta: { title: '', icon: '' },
-    },{
       path: 'login',
       name: 'login',
       component: () => import('../views/login/index'),

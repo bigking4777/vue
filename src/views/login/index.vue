@@ -4,7 +4,7 @@
         login11
     </div>
     <div>
-        <img src="@a/login/huiyuan.png" alt="">
+        
     </div>
 </div>
     

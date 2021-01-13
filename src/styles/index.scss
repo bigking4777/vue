@@ -1,0 +1,147 @@
+
+body {
+    height: 100%;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Helvetica Neue, Helvetica, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif;
+    -webkit-tap-highlight-color: transparent;
+    
+  }
+  
+  label {
+    font-weight: 700;
+  }
+  
+  html {
+    height: 100%;
+   
+    box-sizing: border-box;
+  }
+  
+  #app {
+    height: 100%;
+    text-align: left;
+    
+  }
+  
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+  
+  a:focus,
+  a:active {
+    outline: none;
+  }
+  
+  a,
+  a:focus,
+  a:hover {
+    cursor: pointer;
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  div:focus {
+    outline: none;
+  }
+  
+  .clearfix {
+    &:after {
+      visibility: hidden;
+      display: block;
+      font-size: 0;
+      content: " ";
+      clear: both;
+      height: 0;
+    }
+  }
+  
+  // main-container global css
+  .app-container {
+    padding: 20px;
+  }
+  // 标题样式
+  .jytitle-box{
+      font-size: 28px;
+      font-family: SimSun;
+      font-weight: bold;
+      color: #94484A;
+      height:10vh ;
+      border-bottom: #94484A solid 8px;
+      padding: 0 12%;
+      line-height: 10vh;
+      margin-bottom: 20px;
+  }
+  // 主内容样式
+  .jyfather-box{
+    
+    padding: 0 12%;
+  }
+  // 粉红色盒子样式
+  .jyred-box{
+    
+    background: RGBA(253, 250, 250, 0.35);
+  box-shadow: 0px 3px 7px 0px rgba(246, 201, 201, 0.35);
+  border-radius: 10px;
+  }
+  // 毛笔标题样式
+  
+  
+  // 下一步按钮样式
+  .jynext-btn{
+    z-index: 99;
+    width: 180px;
+    height: 35px;
+    background: #94484A;
+    border-radius: 28px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .flexc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .flexjs{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+ 
+  .footBox {
+    position: relative;
+  }
+  .footBox .box11{
+    position: absolute;
+    top:-5px;
+    left:10px;
+  font-size: 14px;
+  font-family: SimSun;
+  font-weight: bold;
+  color: #FFFFFF;
+  background: #486394;
+  border-radius: 5px;
+  padding:5px;
+  }
+  .footBox .box12{
+  font-size: 12px;
+  font-family: SimSun;
+  font-weight: 400;
+  background: #F7F9FD;
+  color: #333333;
+  padding:10px;
+  padding-top:30px;
+  line-height: 20px;
+  }
+  //红色中间模块
+  .hz {
+    color: white;
+    background: RGBA(148, 72, 74, 1);
+  }
+  

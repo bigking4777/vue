@@ -5,7 +5,8 @@ function resolve(dir){
 }
 
 module.exports = {
-  publicPath: '/admin/',
+  publicPath: '/jingyi/',
+  productionSourceMap: false,
   devServer: {
     disableHostCheck: true,
   },
@@ -20,9 +21,6 @@ module.exports = {
     config.resolve.alias
       .set("@", resolve("src"))
       .set("@a", resolve("src/assets"))
-      .set("components", resolve("src/components"))
-      .set("base", resolve("baseConfig"))
-      .set("public", resolve("public"));
   },
 }
 

@@ -1,8 +1,9 @@
 <template>
     <div>
-       layout
+       
        <div @click="goto">
-           121
+          layout
+          
        </div>
        <div>
            <router-view/>
